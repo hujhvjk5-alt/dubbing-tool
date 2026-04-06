@@ -1,0 +1,6 @@
+whisper_model: large-v3        # large-v3 | turbo | medium | base | small
+translation_model: nllb-200-distilled-600M
+tts_model: tts_models/multilingual/multi-dataset/xtts_v2
+device: auto                   # cuda | cpu | auto
+output_dir: ./output
+models_cache_dir: ./models_cache

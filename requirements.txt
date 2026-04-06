@@ -1,0 +1,22 @@
+# Core pipeline
+ffmpeg-python>=0.2.0
+whisperx>=3.1.1
+ctranslate2>=4.0.0
+transformers>=4.40.0
+sentencepiece>=0.2.0
+coqui-tts @ git+https://github.com/idiap/coqui-ai-TTS.git
+
+# Audio processing
+scipy>=1.12.0
+soundfile>=0.12.1
+numpy>=1.26.0
+
+# CLI & config
+click>=8.1.7
+pydantic-settings>=2.2.0
+pyyaml>=6.0.1
+rich>=13.7.0
+
+# Utilities
+tqdm>=4.66.0
+torch>=2.2.0
